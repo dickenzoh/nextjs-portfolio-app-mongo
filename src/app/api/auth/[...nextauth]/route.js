@@ -4,7 +4,7 @@ import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 import User from "@/models/User";
 import connect from "@/utils/db";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 
 const handler = NextAuth({
   providers: [
